@@ -1,26 +1,18 @@
 # Single server with infinite capacity (M/M/1):(oo/FIFO)
 ## Aim :
 To find (a) average number of materials in the system (b) average number of materials in the conveyor (c) waiting time of each material in the system (d) waiting time of each material in the conveyor, if the arrival  of materials follow poisson process with the mean interval time 12 seconds, serivice time of lathe machine follows exponential distribution with mean serice time 1 second and average service time of robot is 7seconds.
-
 ## Software required :
 Visual components and Python
-
 ## Theory:
 Queuing are the most frequently encountered problems in everyday life. For example, queue at a cafeteria, library, bank, etc. Common to all of these cases are the arrivals of objects requiring service and the attendant delays when the service mechanism is busy. Waiting lines cannot be eliminated completely, but suitable techniques can be used to reduce the waiting time of an object in the system. A long waiting line may result in loss of customers to an organization. Waiting time can be reduced by providing additional service facilities, but it may result in an increase in the idle time of the service mechanism.
-
-![image](1.png)
-
 This is a queuing model in which the arrival is Marcovian and departure distribution is also Marcovian,number of server is one and size of the queue is also Marcovian,no.of server is one and size of the queue is infinite and service discipline is 1st come 1st serve(FCFS) and the calling source is also finite.
-
 ## Procedure :
-
 ![imAGE](2.png)
 
 ## Experiment:
 ![280448304-b7d3f698-02ac-4df2-997a-4716793f9cff](https://github.com/Swetha733N/Single-server-infinite-capacity---Markov-Model/assets/122199934/1df81177-3f69-4ff5-8756-faf25863fbba)
 
 ![280448312-a72f8355-5da3-491d-9fb9-a2b4ae884575](https://github.com/Swetha733N/Single-server-infinite-capacity---Markov-Model/assets/122199934/87bccdd9-384e-4ab7-ab21-0c527bb8a9aa)
-
 ## Program:
 PROGRAM DEVELOPOED BY:SWETHA N
 
@@ -53,7 +45,6 @@ print("---------------------------------------------------------------")
 ```
 ## Output:
 ![image](https://github.com/Swetha733N/Single-server-infinite-capacity---Markov-Model/assets/122199934/c3409b59-cf81-423a-b16b-b6dc684bb915)
-
 ## Result :
 The average number of material in the sysytem and in the conveyor and waiting time are successfully found.
 
